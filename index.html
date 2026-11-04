@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Monroe Cafe · Rooftop cafe in New Palasia, Indore</title>
+<meta name="description" content="Rooftop multi-cuisine vegetarian cafe in New Palasia, Indore. Order food, book a table or plan a birthday on WhatsApp. 3.9 from 3,522 Google reviews.">
+<meta name="theme-color" content="#fbf7f2">
+<meta property="og:title" content="The Monroe Cafe · Rooftop cafe, New Palasia, Indore">
+<meta property="og:description" content="Rooftop cabana seating, multi-cuisine vegetarian menu, birthdays and small parties. Order or book on WhatsApp.">
+<meta property="og:type" content="restaurant.restaurant">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"The Monroe Cafe",
+"address":{"@type":"PostalAddress","streetAddress":"Gold Stone Building, 3/5, near 56 Dukan, New Palasia","addressLocality":"Indore","addressRegion":"Madhya Pradesh","postalCode":"452001","addressCountry":"IN"},
+"telephone":"+91-731-400-2883","servesCuisine":["North Indian","Italian","Chinese"],
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","reviewCount":"3522"}}
+</script>
+</head>
+<body>
+<div class="bar" id="bar"></div>
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <div class="brand">The Monroe Cafe</div>
+    <div style="display:flex;align-items:center;gap:16px">
+      <a class="links" href="#story">The place</a>
+      <a class="links" href="#order">Order</a>
+      <a class="links" href="#book">Book a table</a>
+      <a class="links" href="#party">Parties</a>
+      <a class="btn btn-solid" id="navWa" href="#">WhatsApp</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <div class="pill reveal"><b>3.9</b> from 3,522 Google reviews <span style="opacity:.5">·</span> Rooftop, New Palasia</div>
+    <h1 class="reveal">Evenings on the roof, cabana seats and a menu that keeps everyone happy.</h1>
+    <p class="lede reveal">Vegetarian North Indian, Italian and Chinese, served across a rooftop with cabana seating. Order to your table, book it in advance, or take the whole roof for a birthday.</p>
+    <div class="cta reveal">
+      <a class="btn btn-solid" href="#order">Order food</a>
+      <a class="btn btn-ghost" href="#book">Book a table</a>
+    </div>
+  </div>
+  <div class="scroll-cue">scroll</div>
+</header>
+
+<section id="story">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="eyebrow">The place</div>
+      <h2 style="margin:14px 0 18px">A rooftop built for groups, not for one person with a laptop.</h2>
+      <p>Cabana seating, a big multi-cuisine vegetarian menu, and enough room that a table of twelve is normal rather than a problem. It sits just off 56 Dukan in New Palasia, so it pulls a late crowd.</p>
+      <p style="color:var(--ink-soft);font-size:.92rem">Everything on this page comes from the public Google listing. The menu itself is set by the kitchen, so it is confirmed on WhatsApp before an order is accepted.</p>
+      <div class="stat">
+        <div><span data-count="3522">0</span><small>Google reviews</small></div>
+        <div><span data-count="3.9" data-dec="1">0</span><small>Rating</small></div>
+        <div><span>11 AM</span><small>Opens</small></div>
+      </div>
+    </div>
+    <div class="grid g3 reveal">
+      <div class="tile t1"><span>Rooftop</span></div>
+      <div class="tile t2"><span>Cabana seating</span></div>
+      <div class="tile t3"><span>Photo slot</span></div>
+      <p style="grid-column:1/-1;font-size:.78rem;color:var(--ink-soft);margin:0">
+        Photo slots are placeholders, not the venue. Real photos get dropped in once the owner sends them; nothing here pretends to be the actual interior.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="order" style="background:linear-gradient(180deg,transparent,rgba(194,112,58,.06),transparent)">
+  <div class="wrap">
+    <div class="reveal" style="max-width:60ch">
+      <div class="eyebrow">Order food</div>
+      <h2 style="margin:14px 0 14px">Send the order straight to the floor manager.</h2>
+      <p>No payment, no account, no fake cart. You write what you want, it arrives on the cafe's WhatsApp as a readable order, and they confirm the price and timing before anything is cooked.</p>
+    </div>
+    <div class="grid g2" style="margin-top:34px">
+      <form class="card reveal" id="orderForm">
+        <h3>Your order</h3>
+        <div class="field"><label>What you want</label>
+          <textarea id="oItems" rows="3" placeholder="e.g. 2 paneer tikka, 1 veg biryani, 2 cold coffee"></textarea></div>
+        <div class="grid g2" style="gap:14px">
+          <div class="field"><label>Name</label><input id="oName" placeholder="Your name"></div>
+          <div class="field"><label>Phone</label><input id="oPhone" inputmode="tel" placeholder="10-digit number"></div>
+        </div>
+        <div class="field"><label>For</label>
+          <select id="oType"><option>Dine-in at the rooftop</option><option>Takeaway</option><option>Delivery (ask if it reaches me)</option></select></div>
+        <button class="btn btn-solid" type="submit" style="width:100%;justify-content:center">Send order on WhatsApp</button>
+        <p style="font-size:.76rem;color:var(--ink-soft);margin:12px 0 0">Opens WhatsApp with the message filled in. Nothing is charged here.</p>
+      </form>
+      <div class="card reveal">
+        <div class="eyebrow">Good to know</div>
+        <h3 style="margin:16px 0 10px">How the order lands</h3>
+        <ol style="margin:0;padding-left:18px;color:var(--ink-soft)">
+          <li style="margin-bottom:12px">Your message reaches the manager's WhatsApp with the items, your name and phone.</li>
+          <li style="margin-bottom:12px">They reply with today's prices and how long it takes. Prices change, so this page never states them.</li>
+          <li>For a group order, mention the number of people and they will prep accordingly.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="eyebrow">Book a table</div>
+      <h2 style="margin:14px 0 16px">Pick a slot and it goes to the host desk.</h2>
+      <p>Rooftop tables and cabanas fill up on weekends. Send the date and head count and the cafe confirms the table rather than leaving you waiting at the gate.</p>
+      <p style="font-size:.88rem;color:var(--ink-soft)">No booking engine sits behind this form, and it does not pretend to. It writes a proper booking message to the cafe's WhatsApp.</p>
+    </div>
+    <form class="card reveal" id="bookForm">
+      <div class="grid g2" style="gap:14px">
+        <div class="field"><label>Date</label><input id="bDate" type="date"></div>
+        <div class="field"><label>Time</label><input id="bTime" type="time" value="20:00"></div>
+      </div>
+      <div class="grid g2" style="gap:14px">
+        <div class="field"><label>Guests</label><input id="bGuests" type="number" min="1" value="4"></div>
+        <div class="field"><label>Seating</label><select id="bSeat"><option>Rooftop cabana</option><option>Rooftop table</option><option>No preference</option></select></div>
+      </div>
+      <div class="field"><label>Name</label><input id="bName" placeholder="Your name"></div>
+      <div class="field"><label>Anything to note</label><input id="bNote" placeholder="Birthday, cake cutting, high chair..."></div>
+      <button class="btn btn-solid" type="submit" style="width:100%;justify-content:center">Request the table</button>
+    </form>
+  </div>
+</section>
+<section id="party" style="background:var(--ink);color:var(--paper)">
+  <div class="wrap">
+    <div class="reveal" style="max-width:62ch">
+      <div class="eyebrow" style="color:var(--gold)">Parties and celebrations</div>
+      <h2 style="margin:16px 0 14px;color:var(--paper)">Birthdays, anniversaries, small corporate dinners. Cake, balloons, the works.</h2>
+      <p style="color:rgba(251,247,242,.72)">Tell the cafe the occasion and what you want set up. Cake and balloons are arranged by them or brought in, and they will say which on WhatsApp once they see the date and head count.</p>
+    </div>
+    <form class="card reveal" id="partyForm" style="margin-top:36px;background:#1d1815;border-color:rgba(251,247,242,.14);color:var(--paper)">
+      <div class="grid g2" style="gap:16px">
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Occasion</label>
+          <select id="pOccasion"><option>Birthday</option><option>Anniversary</option><option>Kitty or friends' meetup</option><option>Corporate dinner</option><option>Something else</option></select></div>
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Date</label><input id="pDate" type="date"></div>
+      </div>
+      <div class="grid g2" style="gap:16px">
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Guests</label><input id="pGuests" type="number" min="2" value="12"></div>
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Budget per head (optional)</label><input id="pBudget" placeholder="e.g. 700"></div>
+      </div>
+      <div class="field"><label style="color:rgba(251,247,242,.6)">Add-ons</label>
+        <div class="checks">
+          <label><input type="checkbox" id="pCake"> Cake</label>
+          <label><input type="checkbox" id="pBalloons"> Balloons</label>
+          <label><input type="checkbox" id="pDecor"> Decoration</label>
+          <label><input type="checkbox" id="pCabana"> Cabana block</label>
+        </div>
+      </div>
+      <div class="grid g2" style="gap:16px">
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Cake message</label><input id="pCakeMsg" placeholder="Text on the cake"></div>
+        <div class="field"><label style="color:rgba(251,247,242,.6)">Name</label><input id="pName" placeholder="Your name"></div>
+      </div>
+      <div class="field"><label style="color:rgba(251,247,242,.6)">Anything else</label><input id="pNote" placeholder="Theme, seating, music, surprise timing"></div>
+      <button class="btn" type="submit" style="width:100%;justify-content:center;background:var(--gold);color:#1d1815">Send party enquiry</button>
+      <p style="font-size:.76rem;color:rgba(251,247,242,.55);margin:12px 0 0">Goes to the cafe as one message. Prices for cake, balloons and decoration are quoted by them, never by this page.</p>
+    </form>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="eyebrow">Find it</div>
+      <h2 style="margin:14px 0 16px">Gold Stone Building, New Palasia.</h2>
+      <p>3/5, near 56 Dukan, New Palasia, Indore. Rooftop, so take the lift up.</p>
+      <p style="color:var(--ink-soft);font-size:.9rem">Opens around 11 AM per the Google listing. Timings shift, so a WhatsApp message settles it faster than this page can.</p>
+      <div class="cta" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px">
+        <a class="btn btn-solid" href="https://maps.google.com/?q=The+Monroe+Cafe+New+Palasia+Indore" target="_blank" rel="noopener">Open in Maps</a>
+        <a class="btn btn-ghost" href="tel:+917314002883">Call the cafe</a>
+      </div>
+    </div>
+    <div class="card reveal">
+      <div class="eyebrow">Message them</div>
+      <h3 style="margin:16px 0 12px">Straight to the manager</h3>
+      <p style="color:var(--ink-soft)">Order, booking and party enquiries all land on the same WhatsApp number the cafe actually answers: <b>+91 73140 02883</b>. You can also just tap below and type.</p>
+      <a class="btn btn-solid" id="footWa" href="#" style="margin-top:10px">Open WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer style="border-top:1px solid var(--line);padding:40px 0 60px">
+  <div class="wrap" style="display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap;align-items:flex-start">
+    <div style="max-width:52ch">
+      <div class="brand" style="margin-bottom:8px">The Monroe Cafe</div>
+      <p style="font-size:.8rem;color:var(--ink-soft);margin:0">Preview site built by DEVANSHVERSE from the public Google listing on 4 November 2026. Not an official site, and not published by the cafe. Photos, menu and timings are confirmed with the owner before this goes live.</p>
+    </div>
+    <div style="font-size:.8rem;color:var(--ink-soft);text-align:right">
+      <div>Rooftop · Multi-cuisine · New Palasia</div>
+      <div>Indore, Madhya Pradesh</div>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
